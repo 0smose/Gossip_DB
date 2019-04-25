@@ -1,24 +1,18 @@
-# README
+s4-04_Gossip-Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Group : Robin d'Ercole, Carolina Ferreira Garcia
 
-Things you may want to cover:
+blablalbalblabla
 
-* Ruby version
+A stick! tada
+Gossip Project
 
-* System dependencies
+Exercice de création de base de données avec Ruby On Rails. N'oubliez pas de faire un bundle install pour la correction :).
+Relations entre les tables
 
-* Configuration
+    User : relation N-1 avec City, 1-N avec Gossip
+    City : relation 1-N avec User
+    Gossip : relation N-1 avec User, N-N avec Tag
+    Tag : relation N-N avec Gossip
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+On a pu aller jusqu'aux Private message mais pas eu le temps d'aller plus loin, Bonne journée!
